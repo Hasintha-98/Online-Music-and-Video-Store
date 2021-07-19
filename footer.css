@@ -1,0 +1,105 @@
+footer {
+    color: rgba(31, 31, 30, 0.699);
+    height: 350px;
+    opacity: .5;
+    margin: 15px;
+    background-color: white;
+    height: 15%px;
+    background-color: rgba(255, 255, 255, 0.479);
+    height: 300px;
+}
+
+footer table{
+    margin-top: 25px;
+}
+
+footer table td,th{
+    width: 350px;
+    padding: 5px 0;
+}
+
+footer table th{
+    text-align: center;
+}
+footer table th img {
+    float: left;
+}
+
+
+.EXPLORE ul li{
+    margin-top:8px ;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.location ul li{
+    margin-top:8px ;
+    font-family: sans-serif;
+}
+
+.help ul li{
+    margin-top:8px ;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: -10px;
+}
+
+.about ul li{
+    margin-top:8px ;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: -10px;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a: visited {
+  text-decoration: none;
+}
+
+a: hover {
+  text-decoration: none;
+}
+
+a: active {
+  text-decoration: none;
+}
+
+.Help,.About{
+    margin-bottom: 120px;
+}
+.footer hr{
+    border-top: 15px solid black;
+}
+
+.underF{
+    text-align: right;
+}
+
+.pay img{
+    width: 45px;
+    height: 50px;
+
+}
+
+#fdback{
+    transform: rotate(270deg);
+    background: rgba(0, 0, 0, 0.719);
+    color: white;
+    border: none;
+    border-radius: 10px 10px 0 0 ;
+    padding: 3px 5px;
+    margin-left: 1290px;
+    position: absolute;
+    height: 40px;
+    width: 120px;
+    top:93%;
+}
+
+.reseved{
+    text-align: center;
+    padding: 15px;
+}

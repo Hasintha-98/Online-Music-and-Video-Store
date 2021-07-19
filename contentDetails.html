@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flanger</title>
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link rel="stylesheet" type="text/css" href="style/footer.css">
+	<link rel="stylesheet" type="text/css" href="style/contentDetails.css">
+	<script src="js/contentDetails.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+	<header>
+			<div class="logo">
+				<a href="index.html">
+				<img src="images/logo.png "  alt="Flanger Logo">
+				</a>
+			</div>
+			<div class="search">
+				<form method="GET" action="index.html">
+					<button type="submit" class="submit"><img src="images/search_icon.png" onclick="myfunction()"></button>
+				<div id="myDropdown" class="dropdown-content">
+					<input type="search" class="search_box" placeholder="Type Any Song Or Artist ..." onkeyup="filterfunction()" name="">
+				</div><!--dropdown-content -->
+				</form>
+			</div><!-- search -->
+			<div class="top_bar_buttons">
+				 <button id ="b2" ><img src="images/user_icon.png" width="20px" height="20px"></button>
+				 <label for="">User ID </label>
+				 <select name="user" id="user">
+					 <option value="Profile">Profile</option>
+					 <option value="Income">Income </option>
+					 <option value="Log out">Log out </option>
+				</select> 
+			</div>	
+	</header>
+	<div class="nav_bar">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Library</a></li>
+			<li><a href="#">Artist</a></li>
+			<li><a href="#">Help</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+	</div><!-- nav_bar -->
+	<div class="contentDetails">
+	<div class="image">
+			<img src="images/content/bilando.jpg" alt="bilando">
+	</div><!-- image -->
+	<div class="description">
+			<h1>BILANDO</h1>
+			<h3>Artist: Enrique Iglesias</h3>
+			<h3>Relesed: 2013</h3>
+			<br>
+			<h3>Price: $ 5.69</h3>
+			<br>
+			<p>Rate</p>
+		<div class="rate">
+   			 <input type="radio" id="star5" name="rate" value="5" />
+   			 <label for="star5"></label>
+   			 <input type="radio" id="star4" name="rate" value="4" />
+   			 <label for="star4"></label>
+   			 <input type="radio" id="star3" name="rate" value="3" />
+   			 <label for="star3"></label>
+   			 <input type="radio" id="star2" name="rate" value="2" />
+   			 <label for="star2"></label>
+   			 <input type="radio" id="star1" name="rate" value="1" />
+  	 		 <label for="star1"></label>
+ 		</div><!-- rate -->
+ 	</div><!-- description -->
+ 	<div class="btn">
+ 		<button class="button button1" href="#">Buy Now</button>
+		<button class="button button2" onclick="cart()">Add to Cart</button>
+		<button class="button button3" onclick="fav()">Add to Favourite</button>
+	</div><!-- btn -->
+	</div><!-- contentdetails -->
+		<br><br><hr><br><br>
+		<video controls>
+			<source src="videos/bilando.webm" type="video/webm">
+		</video>
+		<br><br><br><br><br><br>
+	<fieldset>
+		<legend>Top Related Content</legend>
+			<div class="gallery">
+				<a target="_blank" href="images/content/Bailamos.jpg">
+    			<img src="images/content/Bailamos.jpg" alt="content">
+  				</a>
+  				<div class="name">Bailamos</div>
+				<div class="desc1"> Enrique Iglesias (1998)</div>
+				<div class="desc">$ 2.56</div>
+			</div><!-- gallery -->
+			<div class="gallery">
+				<a target="_blank" href="images/content/hero.png">
+    			<img src="images/content/hero.png" alt="content">
+  				</a>
+  				<div class="name">Hero</div>
+				<div class="desc1"> Enrique Iglesias (2009))</div>
+				<div class="desc">$ 3.00</div>
+			</div><!-- gallery -->
+			<div class="gallery">
+				<a target="_blank" href="images/content/loco.jpg">
+    			<img src="images/content/loco.jpg" alt="content">
+  				</a>
+  				<div class="name">loco</div>
+				<div class="desc1"> Enrique Iglesias (2014)</div>
+				<div class="desc">$ 2.00</div>
+			</div><!-- gallery -->
+			<div class="gallery">
+				<a target="_blank" href="images/content/Cuando_me_enamoro.jpg">
+    			<img src="images/content/Cuando_me_enamoro.jpg" alt="content">
+  				</a>
+  				<div class="name">Cuando me</div>
+				<div class="desc1"> Enrique Iglesias (2010))</div>
+				<div class="desc">$ 3.10</div>
+			</div><!-- gallery -->
+			<div class="gallery">
+				<a target="_blank" href="images/content/finally_found_you.jpg">
+    			<img src="images/content/finally_found_you.jpg" alt="content">
+  				</a>
+  				<div class="name">Finally</div>
+				<div class="desc1"> Enrique Iglesias (2012))</div>
+				<div class="desc">$ 4.00</div>
+			</div><!-- gallery -->
+	</fieldset>
+	<br><br><br>
+	<footer>
+    <table >
+        <tr>
+            <th>
+                <div class="footer_logo">
+                    <a href="index.htm">
+                    <img src="images/logo.png "  alt="Flanger Logo" width="150px" height="75">
+                    </a>
+                </div><!-- footer_logo -->
+            </th>
+            <th>
+                <h3>EXPLORE</h3>
+            </th>
+            <th>
+                <h3>HELP</h3>
+            </th>
+            <th>
+                <h3>ABOUT</h3>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <div class="location" >
+                    <ul>
+                        <li><img src="images/location_icon.png" height="15px" width="15px"> High level Road<br>Colombo 07<br>Sri Lanka</li>
+                        <li><img src="images/phone_icon.png" height="15px" width="15px"> (+94)112 567 3465</li>
+                        <li><img src="images/mail_icon.png" height="15px" width="15px"> support@flanger.com</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                <div class="EXPLORE" >
+                    <ul>
+                         <li><a href="#">News</li>
+                         <li><a href="#">Artist on Flanger</li>
+                         <li><a href="#">Video Gallery</li>
+                         <li><a href="#">Price Guid</li>
+                         <li><a href="#">Gift Card</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                <div class="help" >
+                    <ul>
+                        <li><a href="#">Help Center</li>
+                        <li><a href="#">FLANGER Protection</li>
+                        <li><a href="#">Shopping Guid</li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                <div class="about">
+                    <ul>
+                        <li><a href="#">About FLANGER</li>
+                        <li><a href="#">Privacy Policy</li>
+                        <li><a href="#">New Seller Sign Up</li>
+                        <li><a href="#">Contact Support</li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <button id="fdback">Feedback</button>
+    <br><hr>
+    <div class="reseved">
+    	<p id="reseved">&copy; 2020 FlangerCo.Ltd All Right Reseved</p>
+    </div>
+</footer>
+</div><!-- wrapper -->
+</body>
+</html>
